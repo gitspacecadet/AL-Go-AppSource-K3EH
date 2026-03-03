@@ -9,19 +9,24 @@
     {
       "url": "https://nuget.pkg.github.com/gitspacecadet/index.json",
       "authTokenSecret": "GhTokenWorkflow",
-      "patterns": ["K3.*"]
+      "patterns": [
+        "K3.*"
+      ]
     }
   ],
+  "DeliverToGitHubPackages": {
+    "ContinuousDelivery": true,
+    "Branches": ["main", "Development", "release/*"]
+  },
   "enableCodeCop": true,
   "enableUICop": true,
   "skipUpgrade": false,
   "doNotBuildTests": false,
   "doNotRunBcptTests": true,
   "doNotRunTests": true,
-  "additionalCountries": ["nl"]
   "useCompilerFolder": false,
   "doNotPublishApps": false,
-  "additionalCountries": [],
+  "additionalCountries": ["nl"],
   "doNotSignApps": false,
   "runs-on": "self-hosted",
   "githubRunner": "self-hosted",

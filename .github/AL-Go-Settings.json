@@ -23,7 +23,7 @@
   "skipUpgrade": false,
   "doNotBuildTests": false,
   "doNotRunBcptTests": true,
-  "doNotRunTests": true,
+  "doNotRunTests": false,
   "useCompilerFolder": false,
   "doNotPublishApps": false,
   "additionalCountries": ["nl"],

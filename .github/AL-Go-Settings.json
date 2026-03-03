@@ -18,6 +18,7 @@
   "doNotBuildTests": false,
   "doNotRunBcptTests": true,
   "doNotRunTests": true,
+  "additionalCountries": ["nl"]
   "useCompilerFolder": false,
   "doNotPublishApps": false,
   "additionalCountries": [],

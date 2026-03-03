@@ -1,5 +1,40 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.3/.Modules/settings.schema.json",
   "type": "AppSource App",
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@main"
+  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@main",
+  "enableAppSourceCop": true,
+  "installOnlyReferencedApps": false,
+  "trustMicrosoftNuGetFeeds": true,
+  "trustedNuGetFeeds": [
+    {
+      "url": "https://nuget.pkg.github.com/gitspacecadet/index.json",
+      "authTokenSecret": "GhTokenWorkflow",
+      "patterns": ["K3.*"]
+    }
+  ],
+  "enableCodeCop": true,
+  "enableUICop": true,
+  "skipUpgrade": false,
+  "doNotBuildTests": false,
+  "doNotRunBcptTests": true,
+  "doNotRunTests": true,
+  "useCompilerFolder": false,
+  "doNotPublishApps": false,
+  "additionalCountries": [],
+  "doNotSignApps": false,
+  "runs-on": "self-hosted",
+  "githubRunner": "self-hosted",
+  "trustedSigning": {
+    "Account": "K3SoftwareSolutionsBV",
+    "CertificateProfile": "K3SoftwareSolutionsBV",
+    "Endpoint": "https://weu.codesigning.azure.net/"
+  },
+  "incrementalBuilds": {
+    "onPush": false,
+    "onPull_Request": false,
+    "onSchedule": false,
+    "retentionDays": 30,
+    "mode": "modifiedApps"
+  },
+  "versioningStrategy": 3
 }

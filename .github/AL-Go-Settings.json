@@ -18,6 +18,7 @@
     "ContinuousDelivery": true,
     "Branches": ["main", "Development", "release/*"]
   },
+  "CICDPushBranches": [ "main", "release/*", "feature/*", "Development" ]
   "enableCodeCop": true,
   "enableUICop": true,
   "skipUpgrade": false,

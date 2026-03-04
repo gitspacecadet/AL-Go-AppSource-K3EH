@@ -24,7 +24,7 @@
     {
       "branches": ["main"],
       "settings": {
-        "nuGetFeedSelectMode": "LatestMatching"
+        "nuGetFeedSelectMode": "EarliestMatching"
       }
     }
   ],

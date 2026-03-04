@@ -19,6 +19,7 @@
     "Branches": ["main", "Development", "release/*"]
   },
   "CICDPushBranches": [ "main", "release/*", "feature/*", "Development" ],
+  "CICDPullRequestBranches": [ "main", "Development" ],
   "enableCodeCop": true,
   "enableUICop": true,
   "skipUpgrade": false,

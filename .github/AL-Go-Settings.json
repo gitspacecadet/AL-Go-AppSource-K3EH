@@ -26,6 +26,30 @@
       "settings": {
         "nuGetFeedSelectMode": "EarliestMatching"
       }
+    },
+    {
+      "workflows": [" Test Next Minor"],
+      "settings": {
+        "workflowSchedule": {
+          "cron": "39 21 * * *"
+        }
+      }
+    },
+    {
+      "workflows": [" Test Next Major"],
+      "settings": {
+        "workflowSchedule": {
+          "cron": "44 21 * * *"
+        }
+      }
+    },
+    {
+      "workflows": [" Update AL-Go System Files"],
+      "settings": {
+        "workflowSchedule": {
+          "cron": "49 21 * * *"
+        }
+      }
     }
   ],
   "DeliverToGitHubPackages": {

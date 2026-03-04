@@ -42,7 +42,7 @@
   "doNotRunTests": false,
   "useCompilerFolder": false,
   "doNotPublishApps": false,
-  "additionalCountries": ["nl"],
+  "additionalCountries": ["w1"],
   "doNotSignApps": false,
   "runs-on": "self-hosted",
   "githubRunner": "self-hosted",

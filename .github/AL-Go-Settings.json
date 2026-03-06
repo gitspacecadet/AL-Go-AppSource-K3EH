@@ -18,7 +18,7 @@
     {
       "branches": ["Development"],
       "settings": {
-        "nuGetFeedSelectMode": "Latest"
+        "nuGetFeedSelectMode": "LatestMatching"
       }
     },
     {

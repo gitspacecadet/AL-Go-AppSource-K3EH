@@ -12,5 +12,5 @@
   ],
   "bcptTestFolders": [],
   "appDependencyProbingPaths": [],
-  "generateDependencyArtifact": true
+  "generateDependencyArtifact": false
 }

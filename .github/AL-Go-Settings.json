@@ -16,19 +16,19 @@
   ],
   "DeliverToGitHubPackages": {
     "ContinuousDelivery": true,
-    "Branches": ["main", "Development", "release/*"]
+    "Branches": ["main", "release/*"]
   },
-  "CICDPushBranches": ["main", "release/*", "feature/*", "Development"],
-  "CICDPullRequestBranches": ["main", "Development"],
+  "CICDPushBranches": ["main", "release/*", "feature/*"],
+  "CICDPullRequestBranches": ["main"],
   "conditionalSettings": [
     {
-      "branches": ["Development"],
+      "branches": ["main"],
       "settings": {
         "nuGetFeedSelectMode": "LatestMatching"
       }
     },
     {
-      "branches": ["main"],
+      "branches": ["release/*"],
       "settings": {
         "nuGetFeedSelectMode": "EarliestMatching"
       }

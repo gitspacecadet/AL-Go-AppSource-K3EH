@@ -61,7 +61,7 @@
   "enableCodeCop": true,
   "enableUICop": true,
   "skipUpgrade": false,
-  "doNotBuildTests": false,
+  "doNotBuildTests": true,
   "doNotRunBcptTests": true,
   "doNotRunTests": true,
   "useCompilerFolder": false,

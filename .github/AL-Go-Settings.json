@@ -69,11 +69,6 @@
   "doNotSignApps": false,
   "runs-on": "self-hosted",
   "githubRunner": "self-hosted",
-  "trustedSigning": {
-    "Account": "K3SoftwareSolutionsBV",
-    "CertificateProfile": "K3SoftwareSolutionsBV",
-    "Endpoint": "https://weu.codesigning.azure.net/"
-  },
   "incrementalBuilds": {
     "onPush": false,
     "onPull_Request": false,

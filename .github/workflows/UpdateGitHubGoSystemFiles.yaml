@@ -55,7 +55,7 @@ env:
 
 jobs:
   Initialize:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     name: Initialize
     outputs:
       UpdateBranches: ${{ steps.GetBranches.outputs.Result }}
@@ -94,7 +94,7 @@ jobs:
   UpdateALGoSystemFiles:
     name: "[${{ matrix.branch }}] Update AL-Go System Files"
     needs: [ Initialize ]
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         branch: ${{ fromJson(needs.Initialize.outputs.UpdateBranches).branches }}

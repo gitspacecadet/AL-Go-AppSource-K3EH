@@ -68,7 +68,7 @@
   "doNotPublishApps": false,
   "doNotSignApps": false,
   "runs-on": "ubuntu-latest",
-  "githubRunner": "windows-latest",
+  "githubRunner": "self-hosted",
   "incrementalBuilds": {
     "onPush": false,
     "onPull_Request": false,
